@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/nba-2-icon.png" type="image">
+
+    <title>NBA</title>
+</head>
+<body>
+    <div class="tela">
+        <div id="preloader">
+            <img class="gif" src="gif/gif.amarelo.gif" alt="">
+            <div class="inner">
+                <img class="simbolo" src="img/nba-logo-1.png" alt="">              
+                <div class="bolas">
+                    <div>
+                        <img class="ball" src="img/bola.png" alt="">
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section >   
+        <img class="logo1" src="./img/nba4.png" alt="">  
+    </section>
+    
+    <header class="s-hero">
+        <img class="longo" src="gif/longo.gif" alt="">
+
+        <div class="border"></div>
+    </header>
+    
+    
+    <section class="s-dados">
+        <div class="header">
+            <h1>NBA Dashboard</h1>
+            <div class="time"></div>
+    
+        </div>
+        <div class="dados">
+            <div class="cont">
+                <div class="container" data-aos="fade-right">
+
+                    <div class="lista">
+                    </div>
+                    <div class="botoes">
+                        <button class="botao draw-border"><span>mudar</span></button>
+                        <button class="botao2 draw-border draw-border2"><span>voltar</span></button>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="content" data-aos="fade-left">
+                <div id="chart"></div>
+            </div>
+            
+        </div>
+        
+    </section>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
